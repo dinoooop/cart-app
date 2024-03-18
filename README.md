@@ -30,7 +30,7 @@ Api for removing from cart by user
 Api to increase the quantity in cart by user
 
 ## Installation
-PHP 8.1 and Laravel 10 or higher are required.
+PHP 8.1 and Laravel 9 or higher are required.
 
 First of all, install all composer files
 ```sh
@@ -54,7 +54,7 @@ After setting database run the following command to create all required table fo
 php artisan migrate
 ```
 
-There is two API for countries and cities, the command will fetch required data and store in the database.
+For easy testing application come up with dummy data. Seed it.
 ```sh
 php artisan db:seed
 ```
@@ -66,7 +66,7 @@ php artisan key:generate
 
 ## Test User Account
 
-The seed command will also create a test user account for your convenience. You can use the following email address to access the test account:
+The seed command will also create a test user accounts for your convenience. You can use the following email address to access the test account:
 
 **Test User Email:** `admin@gmail.com`
 **Test User password:** `1234`
