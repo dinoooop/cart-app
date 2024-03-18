@@ -1,0 +1,263 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "DJ SHOP",
+    "dateExported": "2024-03-16T15:57:19.224Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "266b3061-339c-4a79-b0a3-7d30d890ebce",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Products Index",
+            "url": "{{URL}}/api/products",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-01-28T04:53:00.204Z",
+            "modified": "2024-01-28T05:18:00.035Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0bac4008-96fe-4382-96cb-1de9f888d79d",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Product Show",
+            "url": "http://127.0.0.1:8000/api/orders/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-28T04:53:31.114Z",
+            "modified": "2024-02-06T06:37:34.746Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c6a40b1a-9a52-42ae-a221-cb0b48f0cd28",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Product Create",
+            "url": "http://127.0.0.1:8000/api/products/create/",
+            "method": "POST",
+            "sortNum": 22500,
+            "created": "2024-02-08T07:06:05.280Z",
+            "modified": "2024-02-08T07:06:54.145Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5NjM1MjcwLCJpYXQiOjE3MDcwNDMyNzAsImp0aSI6IjY5OTljZWRkNTM0ODRkMGU5NTU2OWIzN2RkYzJhMTUxIiwidXNlcl9pZCI6MX0.IucUSmGlo3gONmFEKp9vGtLqvo1lNUSreJNp7MnxKYE"
+            },
+            "tests": []
+        },
+        {
+            "_id": "86e975dd-1441-43f8-b0f7-feb599f90dbf",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Order Show",
+            "url": "http://127.0.0.1:8000/api/orders/16",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-02-06T06:37:03.488Z",
+            "modified": "2024-02-06T09:04:44.813Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "72d0ac38-798b-42d9-9dff-d3c9178ac35e",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "My Orders",
+            "url": "http://127.0.0.1:8000/api/orders/myorders/",
+            "method": "GET",
+            "sortNum": 27500,
+            "created": "2024-02-07T06:37:07.103Z",
+            "modified": "2024-02-07T06:43:30.604Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5NjM1MjcwLCJpYXQiOjE3MDcwNDMyNzAsImp0aSI6IjY5OTljZWRkNTM0ODRkMGU5NTU2OWIzN2RkYzJhMTUxIiwidXNlcl9pZCI6MX0.IucUSmGlo3gONmFEKp9vGtLqvo1lNUSreJNp7MnxKYE"
+            },
+            "tests": []
+        },
+        {
+            "_id": "6e616bc6-8180-46b9-ae76-01589e7d0835",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "User Profile",
+            "url": "{{URL}}/api/users/profile",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-01-28T10:31:37.318Z",
+            "modified": "2024-01-28T13:16:51.434Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "aed39aba-a22f-47ee-8286-6951ae697bb3",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Profile Update",
+            "url": "{{URL}}/api/users/profile/update/",
+            "method": "PUT",
+            "sortNum": 32500,
+            "created": "2024-02-02T05:18:12.201Z",
+            "modified": "2024-02-02T06:51:20.872Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Dino 56"
+                    },
+                    {
+                        "name": "email",
+                        "value": "admin@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "welcome"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "3b88d2be-5cf3-48f9-8783-141292611569",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Review Create",
+            "url": "{{URL}}/api/products/1/reviews/",
+            "method": "POST",
+            "sortNum": 33750,
+            "created": "2024-02-09T11:25:09.139Z",
+            "modified": "2024-02-09T12:25:50.783Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "1"
+                    },
+                    {
+                        "name": "product",
+                        "value": "1"
+                    },
+                    {
+                        "name": "name",
+                        "value": "welcome"
+                    },
+                    {
+                        "name": "rating",
+                        "value": "1"
+                    },
+                    {
+                        "name": "comment  ",
+                        "value": "sample"
+                    }
+                ]
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "f8a6f6ba-21f1-4c59-949b-52e603e7ca85",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "User Show",
+            "url": "{{URL}}/api/users/2",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-02-07T13:28:09.875Z",
+            "modified": "2024-02-07T13:28:48.340Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "04bf4471-23e3-4826-9ae6-9fa755cca0d4",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Index User",
+            "url": "{{URL}}/api/users",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-01-28T13:22:13.747Z",
+            "modified": "2024-01-28T13:22:34.162Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA5MDI4ODgxLCJpYXQiOjE3MDY0MzY4ODEsImp0aSI6ImEwNzk5ZTU2Y2FmNTQyMWRhYTQ2MTU1YWIzZjdmOWE1IiwidXNlcl9pZCI6MX0.xYPqvui35v5VxhJwFnr1hJ85i3NkDy0TwhBaUrbuXzA"
+            },
+            "tests": []
+        },
+        {
+            "_id": "c53720c9-cb44-490e-a313-94e596d06e20",
+            "colId": "3795154e-278e-4a7e-8f91-57090fd46c04",
+            "containerId": "",
+            "name": "Register",
+            "url": "{{URL}}/api/users/register/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-01-30T04:25:37.868Z",
+            "modified": "2024-01-30T04:30:39.895Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "John"
+                    },
+                    {
+                        "name": "email",
+                        "value": "john@mail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "welcome"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://127.0.0.1:8000/"
+        },
+        "envId": "38f61cf2-37fb-4079-b5d5-1d88dbb92b62"
+    }
+}
